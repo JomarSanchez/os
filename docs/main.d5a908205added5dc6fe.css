@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Electrolize&display=swap);
+:root{
+    --color-fondo: #EEEFF3;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Electrolize', sans-serif;
+}
+
+section{
+    padding: 100px;
+}
+
+/* Banner */
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 3em;
+    color: var(--color-blanco);
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3{
+    font-size: 1.5em;
+    color: var(--color-blanco);
+    font-weight: 700;
+}
+.btnInformation{
+    position: relative;
+    background: var(--color-blanco);
+    display: inline-block;
+    color: var(--color-negro);
+    margin-top: 1em;
+    padding: 10px 30px;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+@media (max-width:768px){
+    .banner h2{
+        font-size: 2em;
+        color: var(--color-blanco);
+        font-weight: 500;
+        line-height: 1.5em;
+    }
+    
+    .banner h2 span{
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    .banner h3{
+        font-size: .8em;
+        color: var(--color-blanco);
+        font-weight: 700;
+    }
+}
