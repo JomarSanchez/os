@@ -1,2 +1,7 @@
-import '../src/js/typed.js';
+import '../node_modules/@fortawesome/fontawesome-free/js/all.js'
+import '../src/js/typed.js'
+import '../src/js/about.js'
+import '../src/js/navigation.js'
+import '../src/js/services.js'
+import '../src/js/skills.js'
 import './styles.css'

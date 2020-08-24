@@ -1,0 +1,44 @@
+.head{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.9em;
+    color: var(--color-negro);
+}
+.head h2{
+    font-weight: 600;
+    font-size: 2em;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.contentText{
+    padding: 2em;
+}
+
+.contentText h3{
+    font-size: 1.5em;
+    margin-bottom: .6em;
+}
+.w50{
+    min-width: 50%;
+}
+.img{
+    max-width: 100%;
+}
+
+@media (max-width:360px){
+    .about{
+        padding: 1em;
+    }
+    .contentText h3{
+        text-align: center;
+    }
+    .w50{
+        min-width: 100%;
+        text-align: justify;
+    }
+    .img{
+        display: none;
+    }
+}

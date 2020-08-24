@@ -1,0 +1,14 @@
+.svg-icons{
+    width: 256px;
+    height: auto;
+}
+.skills .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.skills .content .skillText{
+    padding: .5em;
+    transition: .5s;
+}

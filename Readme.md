@@ -41,5 +41,11 @@
 ## Limpiar carpeta Dist
     npm i -D clean-webpack-plugin
 
-### Otros Plugin
+## Instalar otros dependencias
+
+## Libreria para realizar efecto escritura
     npm i -D  typed.js
+
+## Iconos fontawesome
+    npm i -D @fortawesome/fontawesome-free
+

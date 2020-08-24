@@ -1,0 +1,41 @@
+:root{
+    --color-negro-bajo : #18171C;
+}
+.services{
+    background: var(--color-negro-bajo);
+}
+.head.font-white{
+    color: var(--color-blanco);
+}
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesText{
+    padding: 2.5em 1.25em;
+    background: var(--color-blanco);
+    color: var(--color-negro);
+    /* box-shadow:  0px 0px 5px 2px var(--color-blanco); */
+    max-width: 21.25em;
+    margin: 1.25em;
+    text-align: center;
+    transition: .5s;
+    border-radius: .5em;
+}
+.svg-icon{
+    width: 15rem;
+    height: auto;
+    fill: currentColor;
+}
+.services .content .servicesText:hover{
+    background: #2196F3;
+    cursor: pointer;
+}
+.services .content .servicesText h2{
+    margin-top: .2em;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
