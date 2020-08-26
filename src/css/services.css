@@ -1,5 +1,7 @@
 :root{
-    --color-negro-bajo : #18171C;
+    --color-negro-bajo  : #18171C;
+    --color-gris-bajo   : #F1F1F1;
+    --color-gris-hover  : #FAFAFA;
 }
 .services{
     background: var(--color-negro-bajo);
@@ -15,9 +17,10 @@
 }
 .services .content .servicesText{
     padding: 2.5em 1.25em;
+    border: 1px solid rgba(0, 0, 0, .1);
     background: var(--color-blanco);
     color: var(--color-negro);
-    /* box-shadow:  0px 0px 5px 2px var(--color-blanco); */
+    box-shadow:  0px 0.03em 0.09em rgba(0, 0, 0, 0.12), 0px 0.16em 0.36rem rgba(0, 0, 0, .12);
     max-width: 21.25em;
     margin: 1.25em;
     text-align: center;
@@ -31,6 +34,7 @@
 }
 .services .content .servicesText:hover{
     background: #2196F3;
+    /* background: var(--color-gris-hover); */
     cursor: pointer;
 }
 .services .content .servicesText h2{
